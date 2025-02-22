@@ -35,7 +35,7 @@ export default function Page3() {
         </div>
 
         {/* Contact Form Section */}
-        <div className="w-[800px] md:w-[450px] flex flex-col gap-7 px-5 md:px-0 mt-10 md:mt-0 pl-0 md:pl-[100px]">
+        <div className="w-[870px] md:w-[450px] flex flex-col gap-7 px-5 md:px-0 mt-10 md:mt-0 pl-0 md:pl-[100px]">
           <div className="flex flex-col md:flex-row gap-5">
             <input
               type="text"

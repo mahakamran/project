@@ -15,7 +15,7 @@ const Navbar = () => {
           className="md:hidden text-white ml-32 text-2xl rounded"
           onClick={() => setIsOpen(true)}
         >
-          <Menu size={30} className="text-white" /> {/* White menu icon */}
+          <Menu size={30} className="text-white ml-16 lg:ml-0" /> {/* White menu icon */}
         </button>
       </div>
 
