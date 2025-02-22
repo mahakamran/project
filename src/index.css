@@ -1,0 +1,17 @@
+@import "tailwindcss";
+#parent{
+  background-color: #060417;
+}
+
+#maha{
+  font-size: 0.9rem;
+  font-weight: 500;
+  color:white;
+  background: linear-gradient(90deg,#a993fe 0%,#7e61e7 100%);
+  width: 110px;
+
+}
+body{
+  background-color: rgb(48, 45, 45);
+  color: white;
+}
