@@ -5,6 +5,7 @@ import Page1 from "./pages/page1";
 import Page3 from "./pages/page3";
 import Page4 from "./pages/page4";
 import Page5 from "./pages/page5";
+import girl from '/images/ko.webp'
 
 const App = () => {
   return (
@@ -22,7 +23,7 @@ const App = () => {
             </p>
           </div>
           <div>
-          <img  className='lg:w-[400px] w-[250px] mt-24 h-[260px] lg:h-[400px] lg:ml-[200px] lg:mt-11 rounded-2xl'src="https://files.oaiusercontent.com/file-96CDvDNMuwvNYZi1cvPQpY?se=2025-02-21T11%3A45%3A39Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Df8783696-bd15-4f2b-a295-d9c9a5a6e03c.webp&sig=gall2dpw9GLX%2BwE8LoZ%2BmFbSiPT8jK%2Bdkcsa19%2Baae0%3D"/>
+          <img  className='lg:w-[400px] w-[250px] mt-24 h-[260px] lg:h-[400px] lg:ml-[200px] lg:mt-11 rounded-2xl'src={girl}/>
           </div>
 
           <div className="absolute top-11 mt-[-250px] lg:mt-0  lg:pl-[900px] flex space-x-4">

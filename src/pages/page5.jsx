@@ -46,7 +46,7 @@ export default function Page5() {
         {services.map((service, index) => (
           <div
             key={index}
-            className="rounded-2xl overflow-hidden shadow-lg bg-purple-900 text-white p-8 flex flex-col w-[290px]  lg:h-[400px] lg:w-[350px] items-center"
+            className="rounded-2xl lg:ml-0 ml-[-10px] overflow-hidden shadow-lg bg-purple-900 text-white p-8 flex flex-col w-[290px]  lg:h-[400px] lg:w-[350px] items-center"
           >
             {service.icon}
             <h3 className="text-3xl ml-[-120px]  font-semibold mt-7 whitespace-pre-line text-center">
